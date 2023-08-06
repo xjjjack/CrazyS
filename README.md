@@ -118,6 +118,16 @@ $ source ~/.bashrc
 $ cp build/rotors_gazebo_plugins/libmav_msgs.so devel/lib/
 ```
 
+Trouble Shooting
+----------------
+Here lists some possible errors you might encounter.
+
+1. rosdep: command not found
+```console
+sudo apt-get install python-pip # in case you don't have pip installed
+sudo pip install -U rosdep
+```
+
 Installation Instructions - Ubuntu 18.04 with ROS Melodic and Gazebo 9
 -----------------------------------------------------------------------
 To use the code developed and stored in this repository some preliminary actions are needed. They are listed below.
