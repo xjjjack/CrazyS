@@ -124,7 +124,7 @@ Here lists some possible errors you might encounter.
 
 1. rosdep: command not found
 ```console
-sudo apt-get install python-pip # in case you don't have pip installed
+sudo apt-get install python3-pip # in case you don't have pip installed
 sudo pip install -U rosdep
 ```
 
